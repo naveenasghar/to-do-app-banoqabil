@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    box-sizing:border-box ;
+    background: linear-gradient(135deg,#4d79d1,#d67dec);
+    /* margin-right: 40%; */
+}
+.container{
+    /* width: 100%;
+    min-height: 100vh; */
+    /* margin: 10px;
+    padding: 10px; */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    color: white;
+}
+.row{
+  border: none;
+  outline: none;
+ font-size: 40px;
+ cursor: pointer;
+
+}
+.animated-image {
+    /* width: 100px; Adjust the width as needed */
+    position: absolute;
+    left: -100%; /* Initially position the image outside the container on the left */
+    /* top: 20%; */
+    animation: slideIn 1s forwards;
+    width: 40%;
+    height: 100%;
+    margin-left: 50%;
+  }
+  
+  @keyframes slideIn {
+    to {
+      left: 0;
+    }
+  }
+/* .container2 {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+padding-top:100px ; 
+  }
+  
+  .animated-image {
+    width: 30%;
+    margin-top: 10%;
+    padding-bottom: 70%;
+    margin-left: 40px;
+    position: absolute;
+    left: 100%; /* Initially position the image outside the container on the left */
+    /* top: 50%;
+    transform: translate(0, -50%);
+    transition: left 0.5s ease-in-out;
+
+  } */ 
